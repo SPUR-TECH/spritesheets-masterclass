@@ -1,4 +1,5 @@
 // https://www.youtube.com/watch?v=CY0HE277IBM&list=PLYElE_rzEw_sowQGjRdvwh9eAEt62d_Eu @ 19:41
+
 let playerState = 'idle';
 const dropDown = document.getElementById('animations');
 dropDown.addEventListener('change', function (e) {
@@ -6,7 +7,6 @@ dropDown.addEventListener('change', function (e) {
 })
 
 const canvas = document.getElementById("canvas1");
-const fpsCounter = document.getElementById("fps-counter");
 const ctx = canvas.getContext("2d");
 const CANVAS_WIDTH = (canvas.width = 600);
 const CANVAS_HEIGHT = (canvas.height = 600);
